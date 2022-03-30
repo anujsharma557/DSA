@@ -10,14 +10,13 @@ public class Rotate2DArray {
 
     private static void rotateArray(int[][] arr) {
         int r = arr.length;
-        int c = arr[0].length;
         for (int i = 0; i < r / 2; i++) {
             int start=i;
             int end= r-i-1;
             for (int j = start; j < end; j++) {
                 int temp = arr[start][j];
                 arr[start][j] = arr[end - j + start][start];
-                arr[end - j - start][start] = arr[end][end-j+start];
+                arr[end - j + start][start] = arr[end][end-j+start];
                 arr[end][end-j+start] = arr[j][end];
                 arr[j][end] = temp;
             }
