@@ -2,8 +2,8 @@ package main.java.com.dsa;
 
 public class BinarySearch {
     public static void main(String [] args){
-        int[] arr={-5,-3,7,8,9};
-        int find=-3;
+        int[] arr={-5,-3,7,8};
+        int find=-5;
         System.out.println(binarySearch(arr,find,0,arr.length-1));
     }
     public static int binarySearch(int[] arr,int find,int start,int end){
