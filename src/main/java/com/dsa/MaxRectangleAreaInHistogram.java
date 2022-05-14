@@ -3,7 +3,7 @@ package main.java.com.dsa;
 import java.util.Stack;
 
 /**
- * find max rectacngle are in a histogram
+ * find max rectangle area in a histogram
  */
 public class MaxRectangleAreaInHistogram {
     public static void main(String[] args){
@@ -28,13 +28,12 @@ public class MaxRectangleAreaInHistogram {
                  System.out.println("maxArea:"+maxArea);
              }
          }
-        // this case is only if the the remaining last are all  (increasing sequences)
+        // this case is only if  the remaining last are all  (increasing sequences or equal)
          while(!s.isEmpty()) {
              int top= s.pop();
              maxArea = Math.max(maxArea, input[top] * (s.isEmpty() ? i : i - s.peek() - 1));
          }
     return maxArea;
-
     }
 
 }
