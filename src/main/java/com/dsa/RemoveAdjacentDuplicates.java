@@ -1,5 +1,8 @@
 package main.java.com.dsa;
 
+/**
+ * remove adjacent duplicates
+ */
 public class RemoveAdjacentDuplicates {
 
     public static void main(String[] args){
