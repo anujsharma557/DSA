@@ -3,6 +3,9 @@ package main.java.com.dsa;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * check if two arrays are same
+ */
 public class ArraysWithSameSetOfNumbers {
     public static void main(String [] args){
         int a[]={2,5,6,8,10,2,2};
