@@ -6,7 +6,7 @@ package main.java.com.dsa;
  */
 public class MaximumSumOfSubArray{
     public static void main(String[] args) {
-        int[] a={1,-3,4,-2,-1,6};
+        int[] a={1,-3,4,-2,-2,6};
         int sum=maximumSumOfSubArray(a);
         System.out.println("maxSum:"+sum);
     }
