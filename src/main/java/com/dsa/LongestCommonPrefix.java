@@ -2,7 +2,7 @@ package main.java.com.dsa;
 
 /**
  * @Author:sharma.anuj557@gmail.com
- * @Description:
+ * @Description: LeetCode #14 - Longest Common Prefix
  */
 public class LongestCommonPrefix {
     public static void main(String[] args) {
