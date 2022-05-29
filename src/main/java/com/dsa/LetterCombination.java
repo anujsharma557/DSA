@@ -16,7 +16,7 @@ public class LetterCombination {
                 '2', "abc", '3', "def", '4', "ghi", '5', "jkl",
                 '6', "mno", '7', "pqrs", '8', "tuv", '9', "wxyz");
         public static void main(String[] args) {
-                String digits="23";
+                String digits="239";
                 System.out.println(letterCombination(digits));
         }
         public static List<String> letterCombination(String digits){
@@ -35,7 +35,7 @@ public class LetterCombination {
                for(int j=0;j<keyString.length();j++){
                        path.append(keyString.charAt(j));
                        findCombination(i+1,path,inputDigits);
-                       path.deleteCharAt(path.length()-1);
+                       path.deleteCharAt(path.length()-1); // delete the last added char here to go back to previous stage;
                }
         }
 }
