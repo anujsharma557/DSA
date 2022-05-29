@@ -6,7 +6,7 @@ import java.util.Map;
 
 /**
  * @Author:sharma.anuj557@gmail.com
- * @Description: LeetCode #15 - Letter Combinations of a Phone Number
+ * @Description: LeetCode #17 - Letter Combinations of a Phone Number
  * Consider this similar to a tree where you want to find all possible path from root
  */
 public class LetterCombination {
