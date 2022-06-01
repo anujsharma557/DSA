@@ -1,5 +1,8 @@
 package main.java.com.dsa;
 
+/**
+ * this approach is the slowest one avoid recursion and try solving in single scan
+ */
 public class SearchInRotatedArray {
     public static void main(String [] args){
         int[] arr={1,5,6,7,8};
