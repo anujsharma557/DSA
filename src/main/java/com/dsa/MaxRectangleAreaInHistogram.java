@@ -1,13 +1,13 @@
 package main.java.com.dsa;
 
 import java.util.Stack;
-
 /**
- * find max rectangle area in a histogram
+ * @Author:sharma.anuj557@gmail.com
+ * @Description: LeetCode #84 - Largest Rectangle in Histogram
  */
 public class MaxRectangleAreaInHistogram {
     public static void main(String[] args){
-        int [] input={6,6,4,4};
+        int [] input={1,2,3,4};
         int maxArea = maxRectangleAreaInHistogram(input);
         System.out.println(maxArea);
     }
