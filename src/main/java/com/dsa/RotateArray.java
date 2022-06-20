@@ -27,7 +27,6 @@ public class RotateArray {
                 currloc = nextloc;
                 count++;
             } while(i!=currloc);
-
         }
     }
 }
