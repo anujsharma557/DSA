@@ -5,6 +5,9 @@ import java.util.Stack;
 /**
  * @Author:sharma.anuj557@gmail.com
  * @Description: LeetCode # 32 - Longest Valid Parentheses
+ * Initailally add -1 to stack that represent invalid value
+ * keep adding index for ( bracket if the cunter matches remove this and find the length from the invalid value that is on top of stack
+ * invalid value means point before that every thing is valid
  */
 public class LongestValidParentheses {
     public static void main(String[] args) {
